@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+
+.currency-logo {
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.currency-pic {
+  display: flex;
+}
+
+.currency-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency-item-holders {
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 10px;
+}

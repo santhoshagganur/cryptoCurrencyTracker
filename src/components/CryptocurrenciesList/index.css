@@ -1,0 +1,51 @@
+/* Write your CSS code here */
+.app-heading {
+  font-family: Roboto;
+  color: #00e7ff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.app-image {
+  height: 300px;
+  width: 60vw;
+  background-size: cover;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crypto-currency-list {
+  width: 50vw;
+  border-color: #00e7ff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.currency-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency-item-heading {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.currency-type {
+  display: flex;
+}
+
+.crypto-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
